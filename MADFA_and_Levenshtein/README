@@ -1,0 +1,3 @@
+Builds a minimal acyclic deterministic automaton from a lexicographically sorted list of words,
+then builds a deterministic automaton that recognizes all words within Levenshtein distance
+of 1 from the initial list.
