@@ -1,3 +1,5 @@
 Builds a minimal acyclic deterministic automaton from a lexicographically sorted list of words,
 then builds a deterministic automaton that recognizes all words within Levenshtein distance
-of 1 from the initial list.
+of 1 from the initial list. You need to provide the alphabet the list is written in before compilation.
+The alphabet is given on line 21 in file project.cpp. The text file with the words is a command line
+parameter.
